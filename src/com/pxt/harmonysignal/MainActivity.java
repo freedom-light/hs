@@ -42,7 +42,7 @@ public class MainActivity extends Activity {
         List<String> ancoProps = ancoProps();
 
         StringBuilder sb = new StringBuilder();
-        sb.append("PXT鸿蒙信号 v2（只读）\n\n");
+        sb.append("PXT鸿蒙信号 v3（只读）\n\n");
         sb.append("【判定】\n");
         sb.append("现行规则（含anco 或 华为且SDK≥33）= ").append(verdict(containsAnco || huaweiNew)).append('\n');
         sb.append("收紧规则（整段anco 或 华为且SDK≥33）= ").append(verdict(segmentAnco || huaweiNew)).append('\n');
